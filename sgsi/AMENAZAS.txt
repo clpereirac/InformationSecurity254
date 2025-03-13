@@ -1,0 +1,121 @@
+AMENAZAS
+
+--------------------------------------------
+[N] Desastres naturales
+--------------------------------------------
+[N.1] Fuego
+Natural (accidental)
+incendios: posibilidad de que el fuego acabe con recursos del sistema.
+[N.2] Daños por agua
+inundaciones: posibilidad de que el agua acabe con recursos del sistema
+[N.] Desastres naturales
+otros incidentes que se producen sin intervención humana: rayo, tormenta eléctrica, terremoto, ciclones, avalancha, corrimiento de tierras, Se excluyen desastres específicos tales como incendios e inundaciones.-------------------
+
+----------------------------------------------
+[1] De origen industrial
+--------------------------------------------
+Se excluye al personal por cuanto se ha previsto una amenaza especifica para cubrir la indisponibilidad involuntaria del personal sin entrar en sus caus
+[11] Fuego
+incendio: posibilidad de que el fuego acabe con los recursos del sistema.
+escapes, fugas, inundaciones: posibilidad de que el agua acabe con los recursos del sistema.
+Origen:
+Entorno (accidental)
+[1.2] Daños por agua
+Humano (accidental o deliberado)
+otros desastres debidos a la actividad humana: explosiones......
+contaminación quimica,
+[1] Desastres industriales
+sobrecarga eléctrica, fluctuaciones eléctricas...... accidentes de tráfico.....
+[1.3] Contaminación mecánica
+vibraciones, polvo, suciedad......
+[1.4] Contaminación electromagnética
+interferencias de radio, campos magnéticos, luz ultravioleta,...
+[1.5] Avería de origen físico o lógico
+[16] Corte del suministro eléctrico
+fallos en los equipos y/o fallos en los programas. Puede ser debida a un defecto de origen o sobrevenida durante el funcionamiento del sistema. En sistemas de propósito específico, a veces es is es difícil saber si el origen del fallo es físico o lógico, pero para las consecuencias que se derivan, esta dis
+humedad
+[1.7] Condiciones inadecuadas de temperatura o
+case a la alimentacion de potencia
+[1.8] Fallo de servicios de comunicaciones
+deficiencias en la aclimatación de los locales, excediendo los márgenes de trabajo de los equipos: excesivo calor, excesivo frío, exceso de humedad,
+[1.9] Interrupción de otros servicios o suministros
+cese de la capacidad de transmitir datos de un sitio a otro. Típicamente se debe a la destrucción física de los medios físicos de transporte o a la detenc
+esenciales
+otros servicios o recursos de los que depende la operación de los equipos, por ejemplo, papel para las impresoras, toner, refrigerante...
+[1.10] Degradación de los soportes de almacenamiento de la información
+como consecuencia del paso del tiempo
+[1.11] Emanaciones electromagnéticas
+hecho de poner via radio datos internos a disposición de terceros. Es una amenaza donde el emisor es victima pasiva del ataque.
+
+
+-------------------------------------
+[E] Errores y fallos no intencionados
+-------------------------------------
+Origen: Humano (accidental)
+[E.1] Errores de los usuarios
+equivocaciones de las personas cuando usan los servicios, datos, etc.
+[E.2] Errores del administrador
+equivocaciones de personas con responsabilidades de instalación y operación
+[E.3] Errores de monitorización (log)
+inadecuado registro de actividades: falta de registros, registros incompletos, registros incorrectamente fechados, registros incorrectamente atribuidos, introducción de datos de configuración erróneos.
+[E.4] Errores de configuración
+Prácticamente todos los activos dependen de su configuración y ésta de la diligencia del administrador: privilegios de acceso, flujos de actividades, regi cuando no está claro quién tiene que hacer exactamente qué y cuándo, incluyendo tomar medidas sobre los activos o informar a la jerarquía de gestión Acciones descoordinadas, errores por omisión, etc.
+[E7] Deficiencias en la organización
+propagación inocente de virus, espías (spyware), gusanos, troyanos, bombas lógicas, etc.
+[E.8] Difusión de software dañino
+envío de información a través de un sistema o una red usando, accidentalmente, una ruta incorrecta que lleve la información a donde o por donde no es
+[E.9] Errores de [re-]encaminamiento
+Es particularmente destacable el caso de que el error de encaminamiento suponga un error de entrega, acabando la información en manos de quien no se espera.
+[E.10] Errores de secuencia
+alteración accidental del orden de los mensajes transmitidos.
+Alteración accidental de la información
+[E.15] Alteración Accidental de la información
+Esta amenaza sólo se identifica sobre datos en general, pues cuando la información está en algún soporte Pérdida accidental de información Esta amenaza sólo se identifica sobre datos en general, pues cuando la información está en algún soporte inform
+[E.18] Destrucción de la información
+[E.19] Fuga de información
+revelación por indiscreción Incontinencia verbal, medios electrónicos, soporte papel, etc.
+[E.20 ] Vulnerabilidades de los programas (software)
+[E.21] Errores de mantenimiento/actualización de
+defectos en el código que dan pie a una operación defectuosa sin intención por parte del usuario pero con consecuencias sobre la integridad de los dat
+programas (software)
+defectos en los procedimientos o controles de actualización del código que permiten que sigan utilizándose programas con defectos conocidos y repara
+[E.23] Errores de mantenimiento / actualización de
+equipos (hardware)
+defectos en los procedimientos o controles de actualización de los equipos que permiten que sigan utilizándose más allá del tiempo nominal de uso.
+la carencia de recursos suficientes provoca la caída del sistema cuando la carga de trabajo es desmesurada.
+[E.24] Caída del sistema por agotamiento de
+recursos
+la pérdida de equipos provoca directamente la carencia de un medio para prestar los servicios, es decir una indisponibilidad. Se puede perder todo tipo de equipamiento, siendo la pérdida de equipos y soportes de información los más habituales. En el caso de equipos que hospedan datos, además se puede sufrir una fuga de información.
+[E.25] Pérdida de equipos
+[E.28] Indisponibilidad del personal
+ausencia accidental del puesto de trabajo: enfermedad, alteraciones del orden público, guerra bacteriológica,..
+
+------------------------
+[A] Ataques deliberados
+------------------------
+[A.3] Manipulación de los registros de actividad(log)
+[A.4] Manipulación de la configuración
+[A.5] Suplantación de la identidad del usuario
+[A.6] Abuso de privilegios de acceso
+[A.7] Uso no previsto
+[A.8] Difusión de software dañino
+[A.9] [Re-]encaminamiento de mensajes
+[A.10] Alteración de secuencia
+[A.11] Acceso no autorizado
+[A.12] Análisis de tráfico
+[A.13] Repudio
+[A.14] Interceptación de información (escucha)
+[A.15] Modificación deliberada de información
+[A.18] Destrucción de la información
+[A.19] Divulgación de información
+[A.22] Manipulación de programas
+[A.23] Manipulación de Equipos
+[A.24] Denegación de servicio
+[A.25] Robo de equipos
+[A.26] Ataque destructivo
+[A.27] Ocupación enemiga
+[A.28] Indisponibilidad del personal
+[A.29] Extorsión
+[A.30] Ingeniería social (picaresca)
+Origen: Humano (deliberado)
+
